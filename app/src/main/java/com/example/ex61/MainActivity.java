@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     public void clicked(View view) {
         Random rnd = new Random();
         rndNumber= rnd.nextInt(3)+1;
